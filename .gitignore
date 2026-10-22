@@ -1,0 +1,6 @@
+build/
+install/
+log/
+results/*
+!results/.gitkeep
+**/__pycache__/

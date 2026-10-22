@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>tms_hummingbird</name>
+  <version>0.1.0</version>
+  <description>HummingBird thrust and wall effect experiment</description>
+  <maintainer email="ryung9514@naver.com">Ryung</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>px4_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>dynamixel_sdk</depend>
+  <exec_depend>rft_sensor_serial</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-pyqtgraph</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
